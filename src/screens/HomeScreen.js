@@ -8,6 +8,9 @@ const HomeScreen = props => {
       <Button
         onPress={() => props.navigation.navigate('Components')}
         title="Go Components Screen" />
+      <Button
+        onPress={() => props.navigation.navigate('List')}
+        title="Go List Screen" />
     </View>
   );
 };
